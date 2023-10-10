@@ -4,6 +4,7 @@ pipeline{
         stage('Compile'){
             steps{
                 echo "Compling ...."
+                sh 'echo g++ main.cpp -o main'
             }
         }
         stage('Build'){
