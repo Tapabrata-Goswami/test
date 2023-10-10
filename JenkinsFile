@@ -1,0 +1,15 @@
+pipeline{
+    agent any
+    stages{
+        stage("Compile"){
+            stpes{
+                echo "Compling ...."
+            }
+        }
+        stage("Build"){
+            steps{
+                echo "Building ....."
+            }
+        }
+    }
+}
