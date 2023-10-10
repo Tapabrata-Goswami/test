@@ -1,12 +1,12 @@
 pipeline{
     agent any
     stages{
-        stage("Compile"){
-            stpes{
+        stage('Compile'){
+            steps{
                 echo "Compling ...."
             }
         }
-        stage("Build"){
+        stage('Build'){
             steps{
                 echo "Building ....."
             }
